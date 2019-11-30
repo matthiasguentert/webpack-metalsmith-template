@@ -1,0 +1,41 @@
+{
+  "name": "wp1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "dev:server": "node ./src/app/devserver.js",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "bs-fullscreen-message": "^1.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "colors": "^1.4.0",
+    "copy-webpack-plugin": "^5.0.5",
+    "css-loader": "^3.2.0",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "metalsmith": "^2.3.0",
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.1",
+    "sass-loader": "^8.0.0",
+    "strip-ansi": "^6.0.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-middleware": "^3.7.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "dist/*",
+      "node_modules/*"
+    ],
+    "ext": "package.json, webpack.config.js",
+    "no_delay": "200ms",
+    "exec": "npm run dev:server"
+  }
+}
