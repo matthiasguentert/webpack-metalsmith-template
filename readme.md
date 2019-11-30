@@ -6,6 +6,8 @@ Unfortunately I couldn't find many useful resources for webpack beginners like m
 
 This repository is meant as a template and cheat sheet. I will further develop it as soon as I get more insight into this topic or based on (welcome) feedback. 
 
+This code is based on `https://github.com/axe312ger/metalsmith-webpack-suite`.
+
 # Watchable changes 
 
 The following changes will cause a browser refresh
